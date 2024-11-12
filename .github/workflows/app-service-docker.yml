@@ -24,5 +24,5 @@ jobs:
           build-args: |
             CONTENTFUL_SPACE_ID=${{ secrets.NEXT_PUBLIC_CONTENTFUL_SPACE_ID }}
             CONTENTFUL_ACCESS_TOKEN=${{ secrets.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN }}
-          tags: ${{ secrets.ACR_ENDPOINT }}/setechnextjsapp:latest
+          tags: ${{ secrets.ACR_ENDPOINT }}/testnextapp:latest
           file: ./Dockerfile
