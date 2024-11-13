@@ -16,7 +16,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By{" "}
-           MC AZURE v1
+           MC AZURE v2
           </a>
         </div>
       </div>
